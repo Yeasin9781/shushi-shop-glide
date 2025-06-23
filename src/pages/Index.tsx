@@ -6,6 +6,7 @@ import CatalogueMenu from '../components/CatalogueMenu';
 import CategorySection from '../components/CategorySection';
 import TrustedBadges from '../components/TrustedBadges';
 import AnnouncementBar from '../components/AnnouncementBar';
+import CustomDesign from '../components/CustomDesign';
 import DetailedCatalogue from '../components/DetailedCatalogue';
 import VideoBanner from '../components/VideoBanner';
 import Testimonials from '../components/Testimonials';
@@ -21,6 +22,7 @@ const Index = () => {
       <CategorySection />
       <TrustedBadges />
       <AnnouncementBar />
+      <CustomDesign />
       <DetailedCatalogue />
       <VideoBanner />
       <Testimonials />
