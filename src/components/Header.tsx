@@ -1,6 +1,6 @@
 
 import React, { useState } from 'react';
-import { Search, ShoppingCart, Menu, ChevronDown } from 'lucide-react';
+import { Search, ShoppingCart, Menu, ChevronDown, User } from 'lucide-react';
 
 const Header = () => {
   const [isCatalogueOpen, setIsCatalogueOpen] = useState(false);
@@ -65,6 +65,12 @@ const Header = () => {
             <a href="#" className="hidden md:block text-gray-700 hover:text-orange-600 transition-colors font-medium">
               Contact Us
             </a>
+            
+            {/* Login */}
+            <button className="flex items-center text-gray-700 hover:text-orange-600 transition-colors font-medium">
+              <User className="h-5 w-5 mr-1" />
+              Login
+            </button>
             
             {/* Search Bar */}
             <div className="relative">
