@@ -36,19 +36,19 @@ const Header = () => {
                 <div className="absolute top-full left-0 mt-2 w-48 bg-white rounded-lg shadow-lg border z-50">
                   <div className="py-2">
                     <a href="#" className="block px-4 py-2 text-gray-700 hover:bg-orange-50 hover:text-orange-600 transition-colors">
-                      Sushi Rolls
+                      Men's Collection
                     </a>
                     <a href="#" className="block px-4 py-2 text-gray-700 hover:bg-orange-50 hover:text-orange-600 transition-colors">
-                      Nigiri
+                      Women's Collection
                     </a>
                     <a href="#" className="block px-4 py-2 text-gray-700 hover:bg-orange-50 hover:text-orange-600 transition-colors">
-                      Sashimi
+                      Kids Collection
                     </a>
                     <a href="#" className="block px-4 py-2 text-gray-700 hover:bg-orange-50 hover:text-orange-600 transition-colors">
-                      Special Sets
+                      Accessories
                     </a>
                     <a href="#" className="block px-4 py-2 text-gray-700 hover:bg-orange-50 hover:text-orange-600 transition-colors">
-                      Appetizers
+                      Sale Items
                     </a>
                   </div>
                 </div>
@@ -70,7 +70,7 @@ const Header = () => {
             <div className="relative">
               <input
                 type="text"
-                placeholder="Search sushi..."
+                placeholder="Search clothing..."
                 className="pl-10 pr-4 py-2 border border-gray-300 rounded-full focus:outline-none focus:ring-2 focus:ring-orange-500 focus:border-transparent"
               />
               <Search className="absolute left-3 top-2.5 h-5 w-5 text-gray-400" />

@@ -6,19 +6,19 @@ const Banner = () => {
   
   const slides = [
     {
-      image: "https://images.unsplash.com/photo-1579584425555-c3ce17fd4351?w=1200&h=600&fit=crop",
-      title: "Fresh Sushi Daily",
-      subtitle: "Experience authentic Japanese flavors"
+      image: "https://images.unsplash.com/photo-1441984904996-e0b6ba687e04?w=1200&h=600&fit=crop",
+      title: "New Fashion Collection",
+      subtitle: "Discover the latest trends in clothing"
     },
     {
-      image: "https://images.unsplash.com/photo-1617196034796-73dfa7b1fd56?w=1200&h=600&fit=crop",
+      image: "https://images.unsplash.com/photo-1469334031218-e382a71b716b?w=1200&h=600&fit=crop",
       title: "Premium Quality",
-      subtitle: "Made with the finest ingredients"
+      subtitle: "Crafted with the finest materials"
     },
     {
-      image: "https://images.unsplash.com/photo-1580822184713-fc5400e7fe10?w=1200&h=600&fit=crop",
+      image: "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?w=1200&h=600&fit=crop",
       title: "Special Offers",
-      subtitle: "Delicious combos at great prices"
+      subtitle: "Amazing deals on your favorite styles"
     }
   ];
 
@@ -49,7 +49,7 @@ const Banner = () => {
               <h1 className="text-4xl md:text-6xl font-bold mb-4">{slide.title}</h1>
               <p className="text-xl md:text-2xl">{slide.subtitle}</p>
               <button className="mt-8 bg-orange-600 hover:bg-orange-700 text-white px-8 py-3 rounded-full text-lg font-semibold transition-colors">
-                Order Now
+                Shop Now
               </button>
             </div>
           </div>

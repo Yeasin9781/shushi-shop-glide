@@ -5,22 +5,22 @@ const Testimonials = () => {
   const testimonials = [
     {
       name: "Sarah Johnson",
-      role: "Food Blogger",
-      content: "The best sushi I've ever had! The freshness and quality are unmatched. Shushi has become my go-to place for authentic Japanese cuisine.",
+      role: "Fashion Enthusiast",
+      content: "The quality and style of Shushi clothing is unmatched! I love how their pieces make me feel confident and stylish. My wardrobe is now complete!",
       avatar: "https://images.unsplash.com/photo-1494790108755-2616b72b5c82?w=100&h=100&fit=crop&crop=face",
       rating: 5
     },
     {
       name: "Michael Chen",
       role: "Regular Customer",
-      content: "Amazing service and incredible flavors. The Dragon Roll is absolutely divine! I recommend Shushi to all my friends and family.",
+      content: "Amazing quality and perfect fit! The customer service is outstanding and delivery is always on time. Shushi has become my go-to fashion brand.",
       avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop&crop=face",
       rating: 5
     },
     {
       name: "Emily Rodriguez",
-      role: "Sushi Enthusiast",
-      content: "Fresh ingredients, perfect presentation, and outstanding taste. Shushi delivers excellence in every bite. Simply the best!",
+      role: "Style Blogger",
+      content: "Premium materials, trendy designs, and excellent craftsmanship. Shushi delivers fashion-forward pieces that never go out of style. Highly recommended!",
       avatar: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop&crop=face",
       rating: 5
     }

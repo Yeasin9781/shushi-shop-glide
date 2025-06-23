@@ -12,7 +12,7 @@ const Footer = () => {
               Shushi
             </div>
             <p className="text-gray-300 mb-6">
-              Authentic Japanese cuisine crafted with passion and served with love.
+              Premium fashion clothing crafted with style and designed for the modern lifestyle.
             </p>
             
             {/* Email Subscription */}
@@ -36,7 +36,7 @@ const Footer = () => {
             <h4 className="font-semibold mb-4">Quick Links</h4>
             <ul className="space-y-2">
               <li><a href="#" className="text-gray-300 hover:text-orange-400 transition-colors">Home</a></li>
-              <li><a href="#" className="text-gray-300 hover:text-orange-400 transition-colors">Menu</a></li>
+              <li><a href="#" className="text-gray-300 hover:text-orange-400 transition-colors">Collections</a></li>
               <li><a href="#" className="text-gray-300 hover:text-orange-400 transition-colors">About Us</a></li>
               <li><a href="#" className="text-gray-300 hover:text-orange-400 transition-colors">Contact</a></li>
               <li><a href="#" className="text-gray-300 hover:text-orange-400 transition-colors">Track Order</a></li>
@@ -47,11 +47,11 @@ const Footer = () => {
           <div>
             <h4 className="font-semibold mb-4">Categories</h4>
             <ul className="space-y-2">
-              <li><a href="#" className="text-gray-300 hover:text-orange-400 transition-colors">Sushi Rolls</a></li>
-              <li><a href="#" className="text-gray-300 hover:text-orange-400 transition-colors">Nigiri</a></li>
-              <li><a href="#" className="text-gray-300 hover:text-orange-400 transition-colors">Sashimi</a></li>
-              <li><a href="#" className="text-gray-300 hover:text-orange-400 transition-colors">Special Sets</a></li>
-              <li><a href="#" className="text-gray-300 hover:text-orange-400 transition-colors">Appetizers</a></li>
+              <li><a href="#" className="text-gray-300 hover:text-orange-400 transition-colors">Men's Collection</a></li>
+              <li><a href="#" className="text-gray-300 hover:text-orange-400 transition-colors">Women's Collection</a></li>
+              <li><a href="#" className="text-gray-300 hover:text-orange-400 transition-colors">Kids Collection</a></li>
+              <li><a href="#" className="text-gray-300 hover:text-orange-400 transition-colors">Accessories</a></li>
+              <li><a href="#" className="text-gray-300 hover:text-orange-400 transition-colors">Footwear</a></li>
             </ul>
           </div>
 
@@ -59,7 +59,7 @@ const Footer = () => {
           <div>
             <h4 className="font-semibold mb-4">Contact Info</h4>
             <div className="space-y-3 text-gray-300">
-              <p>📍 123 Sushi Street, Tokyo District</p>
+              <p>📍 123 Fashion Avenue, Style District</p>
               <p>📞 (555) 123-4567</p>
               <p>✉️ info@shushi.com</p>
               <div className="flex space-x-4 mt-4">

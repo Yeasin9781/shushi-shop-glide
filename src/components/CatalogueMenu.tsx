@@ -4,34 +4,34 @@ import React from 'react';
 const CatalogueMenu = () => {
   const categories = [
     {
-      name: "Sushi Rolls",
-      image: "https://images.unsplash.com/photo-1579584425555-c3ce17fd4351?w=200&h=200&fit=crop",
-      icon: "🍣"
+      name: "Men's Collection",
+      image: "https://images.unsplash.com/photo-1617137984095-74e4e5e3613f?w=200&h=200&fit=crop",
+      icon: "👔"
     },
     {
-      name: "Nigiri",
-      image: "https://images.unsplash.com/photo-1617196034796-73dfa7b1fd56?w=200&h=200&fit=crop",
-      icon: "🍤"
+      name: "Women's Collection",
+      image: "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=200&h=200&fit=crop",
+      icon: "👗"
     },
     {
-      name: "Sashimi",
-      image: "https://images.unsplash.com/photo-1579952363873-27d3bfad9c0d?w=200&h=200&fit=crop",
-      icon: "🐟"
+      name: "Kids Collection",
+      image: "https://images.unsplash.com/photo-1519457431-44ccd64a579b?w=200&h=200&fit=crop",
+      icon: "👶"
     },
     {
-      name: "Appetizers",
-      image: "https://images.unsplash.com/photo-1580822184713-fc5400e7fe10?w=200&h=200&fit=crop",
-      icon: "🥟"
+      name: "Accessories",
+      image: "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=200&h=200&fit=crop",
+      icon: "👜"
     },
     {
-      name: "Special Sets",
-      image: "https://images.unsplash.com/photo-1606760227091-3dd870d97f1d?w=200&h=200&fit=crop",
-      icon: "🍱"
+      name: "Footwear",
+      image: "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=200&h=200&fit=crop",
+      icon: "👟"
     },
     {
-      name: "Beverages",
-      image: "https://images.unsplash.com/photo-1544787219-7f47ccb76574?w=200&h=200&fit=crop",
-      icon: "🍵"
+      name: "Sale Items",
+      image: "https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=200&h=200&fit=crop",
+      icon: "🏷️"
     }
   ];
 
@@ -39,8 +39,8 @@ const CatalogueMenu = () => {
     <section className="py-16 bg-gray-50">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold text-gray-800 mb-4">Our Menu</h2>
-          <p className="text-xl text-gray-600">Discover our delicious categories</p>
+          <h2 className="text-4xl font-bold text-gray-800 mb-4">Our Collections</h2>
+          <p className="text-xl text-gray-600">Discover our fashion categories</p>
         </div>
         
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8">
