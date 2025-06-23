@@ -56,7 +56,7 @@ const Header = () => {
             </div>
 
             <a href="#" className="text-gray-700 hover:text-orange-600 transition-colors font-medium">
-              Tracking Order
+              Track Order
             </a>
           </nav>
 
