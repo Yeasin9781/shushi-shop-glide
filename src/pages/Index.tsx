@@ -1,12 +1,27 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+
+import React from 'react';
+import Header from '../components/Header';
+import Banner from '../components/Banner';
+import CatalogueMenu from '../components/CatalogueMenu';
+import AnnouncementBar from '../components/AnnouncementBar';
+import DetailedCatalogue from '../components/DetailedCatalogue';
+import VideoBanner from '../components/VideoBanner';
+import Testimonials from '../components/Testimonials';
+import Reviews from '../components/Reviews';
+import Footer from '../components/Footer';
 
 const Index = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
-      </div>
+    <div className="min-h-screen bg-white">
+      <Header />
+      <Banner />
+      <CatalogueMenu />
+      <AnnouncementBar />
+      <DetailedCatalogue />
+      <VideoBanner />
+      <Testimonials />
+      <Reviews />
+      <Footer />
     </div>
   );
 };
